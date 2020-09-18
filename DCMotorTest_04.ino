@@ -35,11 +35,11 @@ static unsigned long lastMilli2 = 0;
 
 void TestLineSensor(int SensorX,int SensorLineX_answer, int SensorLineX_answer_old);
 
-const int SensorLine1_pin = 6;
-const int SensorLine2_pin = 7;
-const int SensorLine3_pin = 8;
-const int SensorLine4_pin = 9;
-const int SensorLine5_pin = 10;
+const int SensorLine1_pin = 27;
+const int SensorLine2_pin = 26;
+const int SensorLine3_pin = 29;
+const int SensorLine4_pin = 28;
+const int SensorLine5_pin = 31;
 
 static int SensorLine1_answer = 0 ;
 static int SensorLine2_answer = 0 ;
